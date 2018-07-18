@@ -1,6 +1,6 @@
 package com.company.project.configurer;
 
-import com.github.pagehelper.PageHelper;
+/*import com.github.pagehelper.PageHelper;
 import org.apache.ibatis.plugin.Interceptor;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.mybatis.spring.SqlSessionFactoryBean;
@@ -17,15 +17,15 @@ import javax.annotation.Resource;
 import javax.sql.DataSource;
 import java.util.Properties;
 
-import static com.company.project.core.ProjectConstant.*;
+import static com.company.project.core.ProjectConstant.*;*/
 
 /**
  * Mybatis & Mapper & PageHelper 配置
  */
-@Configuration
+//@Configuration
 public class MybatisConfigurer {
 
-    @Bean
+    /*@Bean
     public SqlSessionFactory sqlSessionFactoryBean(DataSource dataSource) throws Exception {
         SqlSessionFactoryBean factory = new SqlSessionFactoryBean();
         factory.setDataSource(dataSource);
@@ -62,7 +62,7 @@ public class MybatisConfigurer {
         mapperScannerConfigurer.setProperties(properties);
 
         return mapperScannerConfigurer;
-    }
+    }*/
 
 }
 
